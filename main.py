@@ -12,8 +12,3 @@ def hello():
 def about():
     name = "darshik"
     return render_template("about.html", name=name)
-
-
-@app.route("/boot")
-def boot():
-    return render_template("boot.html")
